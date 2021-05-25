@@ -1,11 +1,11 @@
 import keyboard
 import os
 
+# KEY2 is optional
+# Save as .pyw to start without console
+
 
 Desktop = True
-
-# KEY2 is optional
-
 while Desktop:
     if keyboard.is_pressed("KEY1 + KEY2"):
         os.startfile("YOUR PATH")
